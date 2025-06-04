@@ -14,7 +14,7 @@ const Stories =  () => {
                     </div>
 
                     {data.id == 0 && (
-                        <div className="absolute bottom-[25px] lg:bottom-[10px] left-[40px] cursor-pointer ">
+                        <div className="relative bottom-[20px] lg:bottom-[40px] left-[30px] lg:left-[40px] cursor-pointer ">
                             <Plus />
                         </div>
                     )}

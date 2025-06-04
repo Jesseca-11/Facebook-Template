@@ -8,7 +8,7 @@ import RightSidebar from './RightSidebar'
 
 const Header = () => {
   return (
-    <div className='h-fit bg-[#181820] ps-3 lg:ps-0 block lg:flex w-[100%] justify-between overflow-hidden '>
+    <div className='h-full bg-[#181820] ps-3 lg:ps-0 block lg:flex w-[100%] justify-between overflow-hidden '>
       <div className="w-[24%]">
       <LeftSidebar />
       </div>
